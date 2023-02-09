@@ -25,3 +25,10 @@
     width: 627px;
 }
 
+.bear button {
+    position: absolute;
+    margin-top:900px;
+    background-color: grey;
+    border: 0;
+    text-decoration: none;
+}
