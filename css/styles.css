@@ -1,34 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
 
-.bear{
-    background-image: url("/images/bear.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 941px;
-}
-.bear .banner {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    align-items: center;
-
-    color: grey;
-    font-size: 50px;
+body {
     font-family: 'Space Grotesk', sans-serif;
-    background: rgba(58,69,69,0.5);
-
-    position: absolute;
-    margin-top: 50px; 
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
-    width: 627px;
+    background-color: #BFC0C0;
 }
 
-.bear button {
-    position: absolute;
-    margin-top:900px;
-    background-color: grey;
-    border: 0;
-    text-decoration: none;
-}
