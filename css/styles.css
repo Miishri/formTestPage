@@ -3,15 +3,14 @@
     src: url('/fonts/NightinTokyo.ttf');
 }
 
-body {
-    background-color: #BFC0C0;
+.container {
+    display: flex;
 }
-/* HEADER */
 
+/* HEADER */
 .flower {
     width: 70px;
 }
-
 .title {
     position: absolute;
     display: flex;
@@ -28,9 +27,19 @@ body {
     width: 560px;
     padding: 20px;
 }
+
 .backSakura img{
     display: block;
     width: 600px;
     height: 903px;
 }
 /* HEADER */
+
+/* CONTENT */
+.content {
+    background-color: purple;
+    opacity: 0.25;
+    width: 1300px;
+}
+
+/* CONTENT */
