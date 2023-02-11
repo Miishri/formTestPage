@@ -28,10 +28,13 @@
     padding: 20px;
 }
 
-.backSakura img{
+.backSakura {
     display: block;
+    background-image: url('/images/backSakura.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 600px;
-    height: 903px;
+    height: 941px;
 }
 /* HEADER */
 
@@ -39,7 +42,7 @@
 .content {
     background-color: purple;
     opacity: 0.25;
-    width: 1300px;
+    width: 1400px;
 }
 
 /* CONTENT */
