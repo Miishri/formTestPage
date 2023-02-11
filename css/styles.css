@@ -20,7 +20,7 @@
     color: pink;
     background-color: rgb(97,85,127, 0.3);
     font-family: tokyoNight, sans-serif;
-    font-size: 100px;
+    font-size: 6rem;
 
     height: 100px;
     margin-top: 80px;
@@ -40,9 +40,114 @@
 
 /* CONTENT */
 .content {
-    background-color: purple;
-    opacity: 0.25;
-    width: 1400px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: #536872;
+    background-color: rgba(128,0,128, 0.25);
+
+    width: 1320px;
+}
+
+.heading {
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 1100px;
+    font-size: 2rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: rgba(128,0,128, 0.05);
+    width: 1220px;
+    height: 300px;
+    padding-left: 100px;
+}
+
+.form .header {
+    font-family: 'tokyoNight', sans-serif;
+    color: aliceblue;
+    padding-top: 30px;
+    font-size: 2rem;
+}
+
+.form label{
+    font-weight: bold;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.block label{
+    display: flex;
+    flex-direction: column;
+}
+.block input {
+    width: 250px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.name, .info, .pass {
+    display: flex;
+    gap: 30px;
+    font-size: 0.8rem;
+}
+
+input:focus { 
+    outline:0 !important; 
+}
+.create {
+    margin-top: 50px;
+}
+.create button{
+    font-family: 'tokyoNight', sans-serif;
+    width: 150px;
+    height: 30px;
+    box-shadow: 1px 1px 5px 1px rgba(128,0,128, .5);
+}
+
+a{
+    text-decoration: none;
+    color: purple;
 }
 
 /* CONTENT */
+
+/* MOBILE */
+@media screen and (max-width: 600px) {
+    .title {
+        margin-top: 100px;
+        background-color: rgba(97,85,127, 0.5);
+    }
+
+    .backSakura {
+        background-image: url('/images/backSakura2.jpg');
+        height: 350px;
+        width: 600px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+    
+    .heading {
+        margin-top: 40px;
+        width: 500px;
+        font-size: 1.5rem;
+    }
+    
+    .content {
+        width: 600px;
+        height: 650px;
+    }
+    .form {
+        width: 580px;
+        padding-left: 20px;
+    }
+    
+}
